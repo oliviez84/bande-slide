@@ -1,0 +1,23 @@
+
+
+.effet {
+   
+    position:relative;
+    overflow: hidden;
+    /* margin: auto; */
+}
+.effet img {    
+   width: 100%;
+}
+
+.band {
+    position: absolute;
+    top:0;
+    font-weight: normal ;
+}
+.bouton { margin: 10px auto;}
+.page {
+   
+  padding:100px;
+ 
+}
