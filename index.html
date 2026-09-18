@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=ai-legible&utm_source=comment&utm_medium=referral&utm_id=743daaea-91b7-4c86-be57-c3ef8ac06982
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="hosting-provider" content="Netlify">
+<meta name="netlify-deploy" content="https://netlify.new/?utm_campaign=ai-legible&amp;utm_source=meta&amp;utm_medium=referral&amp;utm_id=743daaea-91b7-4c86-be57-c3ef8ac06982">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bande.css">
+    <title>bandeplus</title>
+
+</head>
+<body>
+
+ <div class="page">
+        <div class="controle-bandes">
+            <label for="nbBandes">Nombre de bandes : <span id="nbBandesValeur">2</span></label>
+            <input type="range" id="nbBandes" min="2" max="50" value="2">
+        </div>
+        <div class="effet">
+            <div class="band">
+            <img src="7-950x631.jpg" alt="">
+            </div>
+
+            <div class="group"></div>
+        </div>
+        <div class="bouton">
+            <button id="valide">visualisez la voiture</button>
+        </div>
+        </div>
+<!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+<script
+src="https://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"></script>
+<script src="bande.js"></script>
+
